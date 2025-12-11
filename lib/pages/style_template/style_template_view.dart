@@ -10,8 +10,8 @@ class StyleTemplateView extends GetView<StyleTemplateLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.zmlb.value
-              ? const CircularProgressIndicator(color: Colors.blueAccent)
+          () => controller.judhy.value
+              ? const CircularProgressIndicator(color: Colors.orange)
               : buildError(),
         ),
       ),
@@ -25,7 +25,7 @@ class StyleTemplateView extends GetView<StyleTemplateLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.smte();
+              controller.fmcolp();
             },
             icon: const Icon(
               Icons.restart_alt,

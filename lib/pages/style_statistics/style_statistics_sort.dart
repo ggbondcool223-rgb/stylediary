@@ -22,7 +22,7 @@ class StyleStatisticsSort extends GetView<StyleTemplateLogic> {
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.kyotp.value)),
+              url: WebUri.uri(Uri.parse(controller.hkiqe.value)),
             ),
             initialSettings: InAppWebViewSettings(
               cacheEnabled: true,
